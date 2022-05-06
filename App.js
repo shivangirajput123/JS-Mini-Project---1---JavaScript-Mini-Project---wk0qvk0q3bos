@@ -51,7 +51,7 @@ const submit = document.querySelector('#submit');
 
 const answers = document.querySelectorAll('.answer');
 
-const showScore = document.querySelectorAll('#showScore');
+const showScore = document.getElementById("showScore");
 
 let questionCount = 0;
 let score =0;
@@ -101,10 +101,7 @@ submit.addEventListener('click', () => {
         loadQuestion();
     }
     else{
-        showScore.innerHTML = `
-            <h3> You scored ${score}/${quizDB.length} </h3>
-            <button class="btn" onclick="location.reload()"> Play Again </button> 
-        `;
+        showScore.innerHTML = "your final score is "  + score;
 
         showScore.classList.remove('scoreArea');
     }

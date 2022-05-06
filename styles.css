@@ -16,7 +16,8 @@ html{
     min-height: 100vh;
     display: grid;
     place-items: center;
-    background-color: hsl(206, 92% 94%);
+    background-color: #74b9ff;
+
 }
 
 .inner-div{
@@ -65,21 +66,19 @@ input{
 
 #showScore{
     background-color: #dfe6e9;
+    font-size: 3rem;
+    text-align: center;
     margin-top: 3rem;
     padding: 3rem 4rem;
+    text-decoration: emoji🤞 ;
     box-shadow: 0 1rem 1rem -0.7rem rgba(0, 0, 0, 0.4);
 }
 
-#showScore he{
-    font-size: 3rem;
-    text-align: center;
-}
 
 #showScore .btn{
     margin-top: 2rem;
     background-color: #74b9ff;
     color: #ffff;
-
 }
 
 .scoreArea{
