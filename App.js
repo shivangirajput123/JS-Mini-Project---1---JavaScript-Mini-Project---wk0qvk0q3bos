@@ -84,7 +84,7 @@ submit.addEventListener('click', () => {
     }
     else{
         showScore.innerHTML = `
-        <h3>You scored ${score}/${quizDB.length}'emoji✌ </h3>
+        <h3>You scored ${score}/${quizDB.length} ✌ </h3>
         <button class="btn" onclick="location.reload()">Playagain</button>
         `;
         showScore.classList.remove('.scorearea');
