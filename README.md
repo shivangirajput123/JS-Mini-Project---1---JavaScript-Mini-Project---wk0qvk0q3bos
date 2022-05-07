@@ -9,9 +9,20 @@ JavaScript
 
 In the html part i have given the division for question types, options, answer of each question and lastly the submit button.
 
+<<<<<<< HEAD
 In the css part I style the main division of question and options and also give the hover button of submit. For the option part I have given radio property for easily selecting the questions.
 
 I have mainly worked in the javascript part, it's a very important part of this project. I define the question type, option type, answer and submit button by initialising in a variable. I have defined the functions for question loading. Also worked on a scorecard with the help of score count and question count by using innerHTML property of js. Lastly define the play again button and hand emoji in javascript.
 
 Learning
 By using javascript very precisely I have learned more about javascript functionality. How it worked dynamatily in real world entities.
+=======
+In the css part I style the main division of question and options and also give the hover button of submit. For the option part I have given radio property for easily selecting the questions. 
+
+I have mainly worked in the javascript part, it's a very important part of this project. I define the question type, option type, answer and submit button by initialising in a variable. I have defined the functions for question loading. Also worked on a scorecard with the help of score count and question count by using innerHTML property of js. Lastly define the play again button and hand emoji in javascript.   
+
+Learning
+By using javascript very precisely I have learned more about javascript functionality. How it worked dynamatily in real world entities.   
+
+
+>>>>>>> 22c1d8f0da6532d328b9c99f0caca1645afb5b72
