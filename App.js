@@ -58,6 +58,7 @@ const loadQuestion = () => {
     option3.innerText = questionList.c;
     option4.innerText = questionList.d;
 }
+
 loadQuestion();
 const getCheckAnswer = () => {
     let answer;
@@ -83,6 +84,9 @@ submit.addEventListener('click', () => {
         loadQuestion();
     }
     else{
+        //only following two lines were added
+        document.querySelector(".main-div").style.display='none'; //when u complete quiz, it gives none properties to main-div. so your quiz window does not show
+        document.querySelector('#showscore_container').style.display="grid"// also it show your showScore container, so your showScore div became visible
         showScore.innerHTML = `
         <h3>You scored ${score}/${quizDB.length} ✌ </h3>
         <button class="btn" onclick="location.reload()">Playagain</button>
